@@ -1,20 +1,20 @@
-# Order Management System (SOLID)
+# Система управления заказами (SOLID)
 
-## Course
-Design Patterns and Application Architecture  
-Module 04 – SOLID Principles
+## Курс
+Шаблоны проектирования и архитектура приложений
+Модуль 04 – Принципы SOLID
 
-## Description
-This project demonstrates an order management system for an online store
-implemented using SOLID principles.
+## Описание
+Этот проект демонстрирует систему управления заказами для интернет-магазина,
+реализованную с использованием принципов SOLID.
 
-## Implemented principles
-- SRP – each class has a single responsibility
-- OCP – new payment, delivery or discount types can be added without modifying existing code
-- LSP – all implementations correctly replace base interfaces
-- ISP – small and focused interfaces
-- DIP – high-level modules depend on abstractions
+## Реализованные принципы
+- SRP – каждый класс имеет единственную ответственность
+- OCP – новые типы оплаты, доставки или скидок могут быть добавлены без изменения существующего кода
+- LSP – все реализации корректно заменяют базовые интерфейсы
+- ISP – небольшие и сфокусированные интерфейсы
+- DIP – высокоуровневые модули зависят от абстракций
 
-## How to run
+## Как запустить
 ```bash
 python src/main.py
